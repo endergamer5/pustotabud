@@ -1,7 +1,7 @@
 from telebot import types
 import time
 import telebot
-bot = telebot.TeleBot("904070860:AAESRxQYq7rznXostxq-50Cpnvbon84wf7U")
+bot = telebot.TeleBot("972294203:AAGnEBG1BSb4y5AS9Ym448zrhpVhmz1KKLY")
 
 @bot.message_handler(commands=["start","exticket","pay","balance"])
 def inline(message):
